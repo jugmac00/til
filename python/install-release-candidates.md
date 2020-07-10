@@ -53,6 +53,13 @@ PIP_PRE=True tox -r
 ```
 https://twitter.com/pganssle/status/1281598162755616769
 
+## github 1
+
+```
+pip install git+https://github.com/pytest-dev/pytest@6.0.0rc1
+```
+https://www.youtube.com/watch?v=c6IgzwFRf5I
+
 
 ## more infos about version identification
 
