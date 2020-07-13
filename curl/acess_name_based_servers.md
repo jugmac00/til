@@ -1,4 +1,4 @@
-# How to test name based servers in development setup?
+# How to access name based servers in development setup?
 
 ## The problem
 
