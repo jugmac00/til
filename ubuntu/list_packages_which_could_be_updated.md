@@ -4,6 +4,8 @@ Have you ever logged into your Ubuntu machine and you get greeted with `xxx pack
 
 Do you want to know which packages could be updated before running `apt upgrade`?
 
+This is for your (and me):
+
 ```
 apt list --upgradable
 ```
