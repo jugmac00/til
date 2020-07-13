@@ -1,4 +1,4 @@
-# How to test name based servers locally?
+# How to test name based servers in development setup?
 
 ## The problem
 
