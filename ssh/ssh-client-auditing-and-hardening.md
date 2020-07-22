@@ -13,6 +13,8 @@ But did you know you can and also should harden your SSH client?
 ```
 git clone https://github.com/jtesta/ssh-audit
 
+cd ssh-audit
+
 git checkout dev  # the master is behind several months
 
 python 3.8 ssh-audit.py -c  # c = client audit; this starts a ssh server on port 2222
