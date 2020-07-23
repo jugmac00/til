@@ -20,8 +20,25 @@ Still confused?
 
 While no longer recommended for new projects, this approach was used to split large packages, and retrieve the contents from more than one location.
 
+
+## examples from the wider Zope universe
+
+- `zc.*`
+- `z3c.*`
+- `zope.*`
+- `Products.*`
+- `five.*`
+- `grokcore.*`
+
+
 ## further reading
 
 http://peak.telecommunity.com/DevCenter/setuptools#namespace-packages
 
 https://packaging.python.org/guides/packaging-namespace-packages/#pkg-resources-style-namespace-packages
+
+## thanks
+
+While I stumbled upon namespace packages now and then, and I read about them a bit, it was Jason who connected the dots for me in
+
+https://github.com/zopefoundation/zc.lockfile/issues/22
