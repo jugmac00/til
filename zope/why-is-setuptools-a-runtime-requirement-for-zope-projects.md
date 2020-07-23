@@ -42,3 +42,14 @@ https://packaging.python.org/guides/packaging-namespace-packages/#pkg-resources-
 While I stumbled upon namespace packages now and then, and I read about them a bit, it was Jason who connected the dots for me in
 
 https://github.com/zopefoundation/zc.lockfile/issues/22
+
+
+## update
+
+Anthony Sottile pointed out that the import is no longer necessary when dropping Python 2. And this is a good thing, as the import of `pkg_resources` can add a whopping 300-1000 ms to import time!
+
+https://twitter.com/codewithanthony/status/1286348771048263680
+
+The reason behind: **PEP 420 - Implicit Namespace Packages**
+
+https://www.python.org/dev/peps/pep-0420/
