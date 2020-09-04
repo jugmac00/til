@@ -14,7 +14,7 @@ I do not paste the password directly after the `-p` so it does not get stored in
 
 All in all, pretty inconvenient.
 
-## There must be a better
+## There must be a better way
 
 We all know pipes ( `ls | grep search_term` ), but here we need the output as an argument.
 
