@@ -1,0 +1,33 @@
+# How do you use the output of one bash command as an argument for another command?
+
+At my hoster, the `mysql` root password is stored in a config file.
+
+Whenever I need to login as root, I do the following steps:
+
+```
+cat /etc/local/mysql/mysql.passwd
+# copy the output
+mysql -u root - p  # hit enter
+# paste the output
+```
+I do not paste the password directly after the `-p` so it does not get stored in the bash history.
+
+All in all, pretty inconvenient.
+
+## There must be a better
+
+We all know pipes ( `ls | grep search_term` ), but here we need the output as an argument.
+
+While we could assign the output to a variable, there is an easier way.
+
+```
+mysql -u root -p"$(cat /etc/local/mysql/mysql.passwd)"
+```
+
+The above command reads the password from the configuration file and directly uses it as input for the `mysql` command.
+
+The correct term for this is **command substitution**.
+
+## Further information
+
+https://tldp.org/LDP/abs/html/commandsub.html
