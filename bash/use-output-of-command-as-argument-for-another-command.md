@@ -1,6 +1,6 @@
 # How do you use the output of one bash command as an argument for another command?
 
-At my hoster, the `mysql` root password is stored in a config file.
+At my hoster ( https://flyingcircus.io/ ), the `mysql` root password is stored in a config file.
 
 Whenever I need to login as root, I do the following steps:
 
