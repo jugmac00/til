@@ -1,3 +1,10 @@
+There is a security issue with this way - at least when you handle sensitive data.
+
+I will update this article next Monday.
+
+Thanks to @asottile for reporting!
+
+
 # How do you use the output of one bash command as an argument for another command?
 
 At my hoster ( https://flyingcircus.io/ ), the `mysql` root password is stored in a config file.
