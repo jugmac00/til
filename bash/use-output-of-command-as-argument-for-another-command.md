@@ -1,11 +1,16 @@
-There is a security issue with this way - at least when you handle sensitive data.
+# TIL my TIL is not secure
 
-I will update this article next Monday.
+There is a security issue with the following description - at least when you handle sensitive data.
+
+see here
+https://github.com/jugmac00/til/commit/7ea93202cecf97070c8931bbe5a1f64c78d41dcb#commitcomment-42050997
 
 Thanks to @asottile for reporting!
 
+Please see https://unix.stackexchange.com/questions/205180/how-to-pass-password-to-mysql-command-line for a better way to create a login one-liner.
 
-# How do you use the output of one bash command as an argument for another command?
+
+## How do you use the output of one bash command as an argument for another command?
 
 At my hoster ( https://flyingcircus.io/ ), the `mysql` root password is stored in a config file.
 
@@ -21,7 +26,7 @@ I do not paste the password directly after the `-p` so it does not get stored in
 
 All in all, pretty inconvenient.
 
-## There must be a better way
+### There must be a better way
 
 We all know pipes ( `ls | grep search_term` ), but here we need the output as an argument.
 
