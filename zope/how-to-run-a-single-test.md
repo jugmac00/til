@@ -1,4 +1,4 @@
-# How can I run only a single test from the Zope test suite?
+# How can I run a single test from the Zope test suite?
 
 While this seems to be no Zope specific question,
 as we all know how to narrow down the test selection with `pytest` (e.g. `pytest -k pattern`),
