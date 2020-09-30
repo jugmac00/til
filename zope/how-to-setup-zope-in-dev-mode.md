@@ -1,4 +1,4 @@
-# How to setup Zope in developer mode?
+# How to setup Zope in development mode?
 
 ```
 git clone git@github.com:zopefoundation/Zope.git
