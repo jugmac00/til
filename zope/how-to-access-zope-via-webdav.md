@@ -73,3 +73,8 @@ Aliases: rm=delete, mkdir=mkcol, mv=move, cp=copy, more=less, quit=exit=bye
 Usually, it is a good idea to directly edit the project's documenation instead of writing a blog post or a til.
 
 I will try to submit a PR to amend the documentation.
+
+## Further resources
+
+Documentation on how to activate WebDav for Zope, scroll down to `webdav-source-port`
+https://zope.readthedocs.io/en/latest/operation.html#zope-configuration-reference
