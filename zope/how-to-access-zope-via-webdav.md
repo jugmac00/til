@@ -70,7 +70,7 @@ Aliases: rm=delete, mkdir=mkcol, mv=move, cp=copy, more=less, quit=exit=bye
 
 ## Disclaimer
 
-Usually, it is a good idea to directly edit the project's documenation instead of writing a blog post or a til.
+Usually, it is a good idea to directly edit the project's documentation instead of writing a blog post or a til.
 
 I will try to submit a PR to amend the documentation.
 
