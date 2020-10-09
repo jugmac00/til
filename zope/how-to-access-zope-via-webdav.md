@@ -12,7 +12,7 @@ The WebDav support in Zope temporay removed, as Zope switched from the legacy ZS
 
 After WebDav support was restored, a couple of users tried to use it, but failed to configure WebDav support in Zope properly.
 
-As Zope now is uses the WSGI approach, WebDav support has to be configured both in Zope and for the WSGI server.
+As Zope now uses the WSGI approach, WebDav support has to be configured both in Zope and for the WSGI server.
 
 For example, when you use the `waitress` WSGI server and want to enable WebDav support for port 9090:
 
