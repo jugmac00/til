@@ -80,3 +80,7 @@ Documentation on how to activate WebDav for Zope, scroll down to `webdav-source-
 https://zope.readthedocs.io/en/latest/operation.html#zope-configuration-reference
 
 Cadaver WebDav client: http://www.webdav.org/cadaver/
+
+## Udpate 2020-10-09
+
+Also **Nautilus**, the file explorer for Gnome/Ubuntu, support the **WebDav** protocol!
