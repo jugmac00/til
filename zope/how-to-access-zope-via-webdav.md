@@ -78,3 +78,5 @@ I will try to submit a PR to amend the documentation.
 
 Documentation on how to activate WebDav for Zope, scroll down to `webdav-source-port`
 https://zope.readthedocs.io/en/latest/operation.html#zope-configuration-reference
+
+Cadaver WebDav client: http://www.webdav.org/cadaver/
