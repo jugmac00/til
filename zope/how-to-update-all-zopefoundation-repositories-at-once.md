@@ -52,6 +52,18 @@ Where
 - `push` configures what should be done after applied changes, here it is "create a pull request at GitHub"
 - `username` is the username which should be used for the pull request
 
+### cloning all repos
+
+```
+❯ all-repos-clone
+Initializing zopefoundation/zope.dottedname
+Initialized empty Git repository in /tmp/Zope/output/zopefoundation/zope.dottedname/.git/
+Initializing zopefoundation/zc.relationship
+Initialized empty Git repository in /tmp/Zope/output/zopefoundation/zc.relationship/.git/
+Initializing zopefoundation/zope.app.dependable
+...
+```
+
 ### grepping all repos
 
 Once this is set up, you can give it a try like the following:
