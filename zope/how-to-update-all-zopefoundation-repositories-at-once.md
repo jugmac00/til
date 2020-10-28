@@ -94,7 +94,7 @@ Where
 
 ### result
 
-That is one of the many pull requests which I did not have to create manually...
+This is one of the many pull requests which I did not have to create manually...
 
 https://github.com/zopefoundation/zope.session/pull/15
 
