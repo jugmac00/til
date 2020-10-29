@@ -1,6 +1,6 @@
 # What is the difference between docker create, docker start and docker run?
 
-In order to be able to answer this question, you have to know, that there are
+In order to be able to answer this question, you have to know that there are
 - Docker images
 - Docker containers
 
