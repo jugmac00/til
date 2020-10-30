@@ -11,7 +11,7 @@ you can also set the environment variable CRYPTOGRAPHY_ALLOW_OPENSSL_102
 to allow OpenSSL 1.0.2.
 ```
 
-Marius found the solution, see https://github.com/zopefoundation/transaction/pull/96
+[Marius](https://twitter.com/mgedmin) found the solution, see https://github.com/zopefoundation/transaction/pull/96
 
 ## solution
 
