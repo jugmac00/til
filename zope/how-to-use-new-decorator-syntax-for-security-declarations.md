@@ -63,10 +63,10 @@ so I reviewed and replaced them manually,
 but the following search/replace should do it.
 
 ```
-Search
+# Search
 security.declarePublic
 
-Replace
+# Replace
 @security.public
 ```
 
@@ -77,10 +77,10 @@ The regex matches both single and double quotes,
 and also the method name, but the latter one can be dropped.
 
 ```
-Search
+# Search
 security.declarePrivate\(['"].*\)$
 
-Replace
+# Replace
 @security.private
 ```
 
@@ -90,11 +90,11 @@ as the order of decorators is important!
 
 So I did another search/replace to fix the order...
 ```
-Search
+# Search
     @security.private
     @staticmethod
 
-Replace
+# Replace
     @staticmethod
     @security.private
 ```
@@ -110,10 +110,10 @@ which can be achieved by using a group: `(.*).
 You then can access the value of the group via the placeholder `$1`.
 
 ```
-Search
+# Search
 security.declareProtected\('(.*)', '.*'\)$
 
-Replace
+# Replace
 @security.protected("$1")
 ```
 
