@@ -121,5 +121,5 @@ security.declareProtected\('(.*)', '.*'\)$
 
 ## conclusion
 
-Updating my code base, consisting of hundreds of files and security declarations only took a couple of minutes,
+Updating my code base, consisting of hundreds of files and thousands security declarations only took a couple of minutes,
 thanks to **VS Code** and a good test suite.
