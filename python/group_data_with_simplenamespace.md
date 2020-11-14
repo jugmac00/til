@@ -98,6 +98,7 @@ namespace_richcompare(PyObject *self, PyObject *other, int op)
 
 I created a [bug report at the cpython issue tracker](https://bugs.python.org/issue42344),
 let's see what the core developers think about it.
+**Update 2020-11-14** My [pull request](https://github.com/python/cpython/pull/23264) was merged.
 
 ## why not just object?
 
