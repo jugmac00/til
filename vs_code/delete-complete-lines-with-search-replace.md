@@ -7,7 +7,7 @@ Due to "legacy issues", I had to apply many `# noinspection` annotations to my s
 Now, that I switched to VS Code, I want to get rid of actually 821 `# noinspection` annotations :-)
 
 A simple search for `# noinspection.*` and a replacement with basically *nothing* would work,
-but would leave many newlines. And then `flake8` would complain.
+but would leave behind many blank lines. And then `flake8` would complain.
 
 ## simple solution
 
