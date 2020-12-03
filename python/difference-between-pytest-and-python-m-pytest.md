@@ -6,7 +6,7 @@ As I am passionate about testing and CI, I always have a look at configuration f
 
 After I cloned the repository, I tried to run the tests.
 
-So I
+So, without having a look into the documenation ( :-/ ), I
 - created a virtual env
 - installed the dependencies
 - ran `pytest` from the root of the project
@@ -21,7 +21,7 @@ python -m pytest
 
 And indeed, it worked.
 
-The project does not follow the `src` convention, so I roughly knew what's going on,
+The project does not follow the `src` "convention", so I roughly knew what's going on,
 but I missed the exact reason.
 
 [Florian Bruhin](https://twitter.com/the_compiler) gave me the answer on [Twitter](https://twitter.com/the_compiler/status/1334446761511952384):
