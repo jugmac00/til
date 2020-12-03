@@ -6,7 +6,7 @@ As I am passionate about testing and CI, I always have a look at configuration f
 
 After I cloned the repository, I tried to run the tests.
 
-So, without having a look into the documenation ( :-/ ), I
+So, without having a look into the documentation ( :-/ ), I
 - created a virtual env
 - installed the dependencies
 - ran `pytest` from the root of the project
