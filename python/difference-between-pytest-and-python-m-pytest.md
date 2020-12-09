@@ -2,7 +2,7 @@
 
 Yesterday, I was recommended to have a look at [**Shopyo - Open inventory management and Point of sales**](https://github.com/Abdur-rahmaanJ/shopyo).
 
-As I am passionate about testing and CI, I always have a look at configuration files for newly discoverd projects.
+As I am passionate about testing and CI, I always have a look at configuration files for newly discovered projects.
 
 After I cloned the repository, I tried to run the tests.
 
