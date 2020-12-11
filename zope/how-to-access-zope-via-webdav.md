@@ -8,7 +8,7 @@ While not really popular, even modern systems like `NextCloud`, `OwnCloud` and a
 
 ## How to activate WebDav support in Zope?
 
-The WebDav support in Zope temporay removed, as Zope switched from the legacy ZServer to the standard WSGI approach, and WebDav was coupled to the ZServer, for no obvious reasons.
+The WebDav support in Zope habd been temporarily removed, as Zope switched from the legacy ZServer to the standard WSGI approach, and WebDav was coupled to the ZServer, for no obvious reasons.
 
 After WebDav support was restored, a couple of users tried to use it, but failed to configure WebDav support in Zope properly.
 
@@ -83,4 +83,4 @@ Cadaver WebDav client: http://www.webdav.org/cadaver/
 
 ## Udpate 2020-10-09
 
-Also **Nautilus**, the file explorer for Gnome/Ubuntu, support the **WebDav** protocol!
+Also **Nautilus**, the file explorer for Gnome/Ubuntu, supports the **WebDav** protocol!
