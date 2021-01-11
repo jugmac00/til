@@ -8,7 +8,7 @@ Within a day Bernát published some fixes on the `rewrite` branch, and asked me 
 
 That means there is no new package on `PyPI`, yet.
 
-So, I had to install `tox` directly from Github, to be exact, from the `rewrite` branch:
+So, I had to install `tox` directly from GitHub, to be exact, from the `rewrite` branch:
 
 ```
 pip install git+https://github.com/tox-dev/tox@rewrite
