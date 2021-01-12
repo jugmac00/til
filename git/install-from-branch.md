@@ -19,3 +19,21 @@ or more general
 ```
 pip install git+https://github.com/username/repository@branch
 ```
+
+
+## Update
+
+Ok, installing from a branch works, but what to do when you want to install from a [commit](https://github.com/tox-dev/tox/issues/1782#issuecomment-758188906)?
+
+### How to install a Python package from a commit ID?
+
+This works the same way as described above.
+
+```
+pip install git+https://github.com/gaborbernat/tox@0da060f85e38356afedb240fa4207c4fc6de6276
+
+```
+
+## Thanks
+
+Thanks a lot [Sviatoslav](https://twitter.com/webKnjaZ/status/1348636796008198145)!
