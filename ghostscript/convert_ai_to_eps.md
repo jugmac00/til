@@ -16,6 +16,6 @@ where
 - `-dNOPAUSE` means "no pause after page"
 - `-dBATCH` means "exit after last file"
 - `-sDEVICE` selects the device
-- `-sOutputFile` is the name of the - you can guess it - the output file
+- `-sOutputFile` is the name of the - you can guess it - output file
 
 P.S.: I ❤️ open source and Linux!
