@@ -22,10 +22,10 @@ Even without knowing anything about the security model of VS Code I won't ever i
 
 ## sources
 
-https://github.com/microsoft/vscode/issues/932
-https://github.com/microsoft/vscode/issues/15344
-https://github.com/microsoft/vscode/issues/45726
-https://stackoverflow.com/questions/61339515/how-to-set-vscode-to-display-the-number-of-selected-lines
+- https://github.com/microsoft/vscode/issues/932
+- https://github.com/microsoft/vscode/issues/15344
+- https://github.com/microsoft/vscode/issues/45726
+- https://stackoverflow.com/questions/61339515/how-to-set-vscode-to-display-the-number-of-selected-lines
 
 ## money quote
 
