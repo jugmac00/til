@@ -8,13 +8,20 @@ So, in order to get the number of columns, I selected all related lines and in t
 
 After some searching on Google and stackoverflow I came to the conclusion...
 
-Either you install an outdated plugin, or you
+Either
+
+a) you install an outdated plugin
+
+b) or you
 - open a terminal
 - open your file in vim
 - use visual mode and select the lines
-(or copy paste the lines into an empty file and do a `wc -l`).
 
-There are several issues on the VS Code issue tracker about line count.
+c) or you copy paste the lines into an empty file and do a `wc -l`
+
+d) or you copy paste the lines into a new buffer/file and have a look at the total lines
+
+There are ~~several~~ many, many issues on the VS Code issue tracker about line count.
 
 They were all closed and it was recommended to install a plugin :-/
 
