@@ -1,4 +1,4 @@
-# What is the difference between transaction.abort and transaction.doom?
+# What is the difference between transaction.abort() and transaction.doom()?
 
 **Zope** is using the [transaction](https://transaction.readthedocs.io/en/latest/index.html) package to manage - you guess - transactions.
 
@@ -29,9 +29,9 @@ When I return an `xmlrpc.client.Fault` object, the client gets a meaningful erro
 If there is any side effect, it gets committed.
 That is not what we want here.
 
-## transaction.abort anyone?
+## transaction.abort() anyone?
 
-Ok. What about adding a `transaction.abort` in the `except` block?
+Ok. What about adding a `transaction.abort()` in the `except` block?
 
 This also does not yield the desired result.
 
@@ -50,4 +50,4 @@ also the changed state from before gets persisted!
 ## doom to the rescue
 
 The solution is simple (once you know it).
-Instead of `transaction.abort` you have to use a `transaction.doom` - the latter one really makes sure the transaction is rolled back.
+Instead of `transaction.abort()` you have to use a `transaction.doom()` - the latter one really makes sure the transaction is rolled back.
