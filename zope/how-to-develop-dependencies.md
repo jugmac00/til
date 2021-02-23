@@ -40,7 +40,7 @@ auto-checkout = *
 Products.ZopeTree = git git@github.com:jugmac00/Products.ZopeTree.git
 ```
 
-Then I run `bin/buildout` and instead of pulling the app from **PyPi**, it gets checked out from GitHub.
+Then I run `bin/buildout` and instead of pulling the app from **PyPI**, it gets checked out from GitHub.
 
 In hindsight... I could have tried this earlier :-)
 
