@@ -94,5 +94,5 @@ Who knows :-)
 
 ## thanks
 
-Many thanks to [Anthony](https://twitter.com/codewithanthony) for creating this any many other invaluable tools,
+Many thanks to [Anthony](https://twitter.com/codewithanthony) for creating this and many other invaluable tools,
 and many thanks for being helpful on so many occasions.
