@@ -18,7 +18,9 @@ __import__('pkg_resources').declare_namespace(__name__)
 
 Still confused?
 
-While no longer recommended for new projects, this approach was used to split large packages, and retrieve the contents from more than one location.
+While [pkg_resources-style namespace packages](https://packaging.python.org/guides/packaging-namespace-packages/#creating-a-namespace-package) are no longer recommended for new projects,
+this approach was used to split large packages,
+and retrieve the contents from more than one location.
 
 
 ## examples from the wider Zope universe
