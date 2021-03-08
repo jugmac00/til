@@ -30,7 +30,7 @@ But I could not figure out how to update them :-/
 
 For `cargo update` you need the source and a `Cargo.toml` file...
 
-## disord to the rescue
+## discord to the rescue
 
 As I wanted to update [starship](https://starship.rs/),
 a super awesome prompt for any shell,
