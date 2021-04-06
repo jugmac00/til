@@ -35,15 +35,15 @@ While `all-repos` offers many command line tools, `all-repos-sed` is the one we 
 
 Imaging using `sed`, the stream editor, but not on one file or repository, but on all of them.
 
-A usual sed command looks like this:
+A common sed command looks like this:
 
 `$sed 's/unix/linux' hobbies.txt`
 
 Which means
-- search the file `hobbies.txt` the first occurence of `unix`
+- in the file `hobbies.txt` search for the first occurence of `unix`
 - and replace it with `linux`
 
-Note, that the slash is used as delimiter.
+Note, that the slash is used as a delimiter.
 
 # putting it all together
 
@@ -57,9 +57,7 @@ all-repos-sed --commit-msg "Update repository URL for Flake8" s#https://gitlab.c
 ```
 
 Let's break it down:
-- `all-repos-sed` - like `sed` but applied on all repositories
-- `--commit-msg "Update repository URL for Flake8"` - just a commit message for git
+- `all-repos-sed` - like `sed` but applied on all repositories and on all files
+- `--commit-msg "Update repository URL for Flake8"` - just the commit message for git
 - `s#https://gitlab.com/pycqa/flake8#https://github.com/PyCQA/flake8#` - replace the old with the new URL
 - '.pre-commit-config.yaml' - but only in the given configuration file
-
-
