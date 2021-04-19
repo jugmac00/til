@@ -12,3 +12,6 @@ Luckily, there is no need to do a complicate query or work with GitHub's GraphQL
 Just replace "ORG" with your organization and click on the following link...
 
 https://github.com/pulls?user=ORG
+
+**Update**
+- use an even simpler URL
