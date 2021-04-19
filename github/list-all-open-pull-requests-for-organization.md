@@ -13,5 +13,12 @@ Just replace "ORG" with your organization and click on the following link...
 
 https://github.com/pulls?user=ORG
 
+Alternatively, you can use the GitHub search, either by clicking the top left search field or entering "/":
+
+```
+is:pr is:open org:ORG
+```
+
 **Update**
 - use an even simpler URL
+- show alternative way - thank you, Anthony Sottile!
