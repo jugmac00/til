@@ -11,4 +11,4 @@ Luckily, there is no need to do a complicate query or work with GitHub's GraphQL
 
 Just replace "ORG" with your organization and click on the following link...
 
-https://github.com/pulls?q=is%3Aopen+is%3Apr+user%3AORG+archived%3Afalse+
+https://github.com/pulls?user=ORG
