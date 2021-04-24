@@ -15,7 +15,19 @@ You need to setup a log handler, which captures the log messages...
 >>> handler = zope.testing.loggingsupport.InstalledHandler('ZEO', level=logging.ERROR)
 ```
 
-... and afterwards you can inspect the list of log records...
+... and then you can inspect the list of log records...
 ```
 >>> handler.records
 ```
+
+Do not forget to clean up afterwards!
+
+```
+>>> handlers.uninstall()  # remove handler(s), and thus stop collecting log records
+>>> handlers.clear()  # delete collected log records
+```
+
+## update
+
+2021.04.24:
+- added missing teardown instructions - thanks to [Marius](https://twitter.com/mgedmin/status/1385969813449756672) for pointing out!
