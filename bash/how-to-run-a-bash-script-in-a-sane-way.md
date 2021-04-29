@@ -22,7 +22,7 @@ Ok, let's go through the options, one by one.
 
 ### `set -e`
 
-This makes a bash script to stop immediately, and exit.
+This makes a bash script to stop on error immediately, and exit.
 
 Sound like it should be anyways,
 and it is in Python,
