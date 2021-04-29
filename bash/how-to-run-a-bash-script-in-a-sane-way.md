@@ -24,8 +24,8 @@ Ok, let's go through the options, one by one.
 
 This makes a bash script to stop on error immediately, and exit.
 
-Sound like it should be anyways,
-and it is in Python,
+Sounds it should be like this always,
+and that is the way it is in Python,
 but well,
 in bash you need to activate this ``error mode``,
 otherwise the bash script just continues with the next line and you will possibly receive something you did not expect!
