@@ -43,7 +43,7 @@ So, configuring a secure server is easy, well, when you follow the correct resou
 
 Configuring a server less secure is harder... which cipher may I allow although it is less (how much less?) secure?
 
-I am by no means a security specialist, but here are some resources:
+I am by no means a security specialist, but here are some fine resources:
 
 - https://www.ssllabs.com/ssltest/ -> test your site's certificate and configuration
 - https://ciphersuite.info/ -> is a given cipher secure?
@@ -54,4 +54,12 @@ I am by no means a security specialist, but here are some resources:
 - https://www.feistyduck.com/books/bulletproof-ssl-and-tls/ -> highly recommended read when you want to dive into this topic
 - https://ssl-config.mozilla.org/ -> ssl configuration generator; modern + intermediate + old
 
-P.S.: When you allow diffie hellmann exchange, please make sure to include the dhparams file :-/ ... or scratch your head for a while like I did.
+After working through some of them, it still did not work.
+- Mozilla's **intermediate** configuration still prevented access (for IE 11 on Windows Server 2012)
+- my manual setup did not work - the dhe cipher did not show up at SSLLabs...
+
+Note to myself: When you allow diffie hellmann exchange, please make sure to include the dhparams file :-/ ... or scratch your head for a while like I did.
+
+The final solution emerged from a debugging session with my friendly hoster ([FlyingCircus](https://flyingcircus.io/)), looking here and there (hey gitlab!), doing this and that... and finally I got an A rating from SSLLabs, and still allow access for IE 11 and Java 7.
+
+My next step: Dig into https://www.feistyduck.com/books/bulletproof-ssl-and-tls/ - 470 pages, here I come!
