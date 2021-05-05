@@ -101,3 +101,9 @@ except Python 3.5, which I used to reproduce a [problem reported on StackOverflo
 You can delete unused images with `docker image rm <image name>`.
 
 e.g. `docker image rm redis`
+
+## thanks
+
+I learned the first "trick" by one of [Anthony's videos](https://www.youtube.com/watch?v=TSjZrubRfXo).
+
+Once more, thank you very much, [Anthony](https://twitter.com/codewithanthony)!
